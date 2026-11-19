@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hilltop Intramurals: Scorekeeper</title>
+  <link rel="stylesheet" href="scoreboard.css">
+</head>
+<body>
+  <main>
+    <h1>Scorekeeper</h1>
+    <p class="match">Hawks vs Foxes, Field 1</p>
+    <div class="board">
+      <section class="team">
+        <h2>Hawks</h2>
+        <p class="goals" id="hawks">-</p>
+        <button type="button" data-team="hawks">Goal for the Hawks</button>
+      </section>
+      <section class="team">
+        <h2>Foxes</h2>
+        <p class="goals" id="foxes">-</p>
+        <button type="button" data-team="foxes">Goal for the Foxes</button>
+      </section>
+    </div>
+    <p id="viewers">Connecting to the scoreboard...</p>
+    <p id="status" role="status"></p>
+    <p class="link"><a href="index.html">Back to the viewer's page</a></p>
+  </main>
+  <script src="live.js"></script>
+</body>
+</html>
